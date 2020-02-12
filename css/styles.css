@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+.row {
+    width: 100%;
+}
+
 #ourStory, #menu, #review, #contact {
     min-height: 600px;
 }
@@ -169,6 +173,122 @@ nav.navbar {
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
+/* MENU SECTION */
+
+#menu {
+    background: url("../img/black_linen.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 3em;
+}
+
+#menu .navbar {
+    background-color: #fff;
+}
+
+#menu h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 5px #0a0a0a;
+    font-size: 6rem;
+}
+
+#menu h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#menu a {
+    color: #f8512f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+}
+
+#menu p {
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+#menu li {
+    width: 25%;
+}
+
+.food {
+    padding: 1rem;
+}
+
+#menu .nav li a:hover {
+    background-color: rgba(200,200,200,0.3);
+    border-color: transparent;
+}
+
+#menu .nav-justified li a {
+    margin-bottom: -5px;
+}
+
+#menu .nav-tabs li a {
+    border: none;
+}
+
+/* CONTACT SECTTION */
+
+#contact {
+    background-color: #f8512f;
+}
+
+#contact_bottom {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.contact_form{
+    background-color: #ff6633;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.contact_form form {
+    padding: 5% 0;
+}
+
+.contact_form span {
+    color: #ff0d06;
+}
+
+#contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 4rem;
+}
+
+#contact p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+#contact_fine_print {
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+address {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.required::after {
+    content: '*';
+    font-size: 2rem;
+}
 /* @media only screen and (min-width: 1129px) {
     #ourStory h3 {
         margin-left: 150px;
