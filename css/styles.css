@@ -285,9 +285,9 @@ address {
     font-weight: 300;
 }
 
-.requried::after {
+.required::after {
     content: '*';
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 /* @media only screen and (min-width: 1129px) {
     #ourStory h3 {
